@@ -1,0 +1,28 @@
+{
+  "name": "UsergridSDK-ObjC",
+  "version": "1.0.0",
+  "summary": "Usergrid SDK written in Objective-C",
+  "homepage": "https://github.com/ocgungor/usergrid",
+  "license": {
+    "type": "Apache 2.0",
+    "file": "LICENSE"
+  },
+  "authors": "Oguzhan Gungor",
+  "source": {
+    "git": "https://github.com/ocgungor/usergrid.git",
+    "tag": "1.0.0"
+  },
+  "social_media_url": "https://twitter.com/usergrid",
+  "source_files": [
+    "Classes",
+    "UGAPI/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "requires_arc": true,
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

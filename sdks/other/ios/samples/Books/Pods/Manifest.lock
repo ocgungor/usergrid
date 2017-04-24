@@ -1,0 +1,16 @@
+PODS:
+  - UsergridSDK-ObjC (1.0.0)
+
+DEPENDENCIES:
+  - UsergridSDK-ObjC (from `../../`)
+
+EXTERNAL SOURCES:
+  UsergridSDK-ObjC:
+    :path: ../../
+
+SPEC CHECKSUMS:
+  UsergridSDK-ObjC: 27253418fa6b3cdd57328414dc907e524fc78b32
+
+PODFILE CHECKSUM: 236dcab09672b413f399cd5b24b2a05d6ca6c6f8
+
+COCOAPODS: 1.2.0

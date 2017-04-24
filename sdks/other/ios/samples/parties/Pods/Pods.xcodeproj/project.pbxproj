@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025C56F706F2ABAACBB6CD4F5691C764 /* UsergridSDK-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FA41355BD11352A4E1C5B73D46D401 /* UsergridSDK-ObjC-dummy.m */; };
+		02F7C4344CF08C77D5B9704A75E38648 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCF1179FB87250CE704D9E818FE1E85 /* NSObject+SBJson.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		06BF551BC34D64D8D561CE6C902DFF36 /* UGHTTPResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4295DDB8176BDCC3B64A1C7CBA4E3250 /* UGHTTPResult.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		076F01398D1B5908792EB937D8BAEDBD /* UGClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 833722B1B60AC9B6E08C9826CEB4DA02 /* UGClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0944DAFF4831E951B3DF5FA69E5A18EA /* NSObject+SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7FEED19FA411B9252B56B1C04C490D /* NSObject+SBJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A8F3C099BDAB3BE3DF3DF38D58ABF14 /* UGClientResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F9314EEDAB58F4F0CCDF5B1E8A6C1 /* UGClientResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14468D773DDFC16A94DD002620D80F26 /* SBJsonStreamParserAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6455C66D50EA1A5B431BE4105CF7CDD7 /* SBJsonStreamParserAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C07FE1B592FA4F64DD718566EE66B8 /* UGMultiStepAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FCC509117CCB4566143708083A9C7E /* UGMultiStepAction.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2198C6C5BD806CB03698989C4419EA88 /* UGConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B811533E2D00C5DA0DC55F142919A5 /* UGConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23D5933DE018BD7DBBA2EFC32236FC10 /* SBJsonUTF8Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B457AF4F7C64C71A4657A5D7A93928A /* SBJsonUTF8Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D65A4B81C3ACBC8DBB7B90D4F9BD391 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A70D386BF393A464175949A0E0EDB67A /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34E3BD0D8EF748AA9BA94A5D186499F7 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA5D4D4142F2173511241FB970C4B5 /* SBJsonStreamParserAccumulator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3C0EBB8BDB3A8D0AB72AAC279D9EAF4A /* UGHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABDC38D89988936C906CAD3E57BA0EB /* UGHTTPManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4028BAB8DE2D5F7F5F52AF91D4CAEFC3 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88D130D3670FAA40ADF5FFD986C0F1 /* SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		43ABC1FB946A2B8345E85073444D3923 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E781D99055EA811C4C8CE9DD762EFC /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451AD9E942FA784341A1D5CE2B57DC09 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C701D21CC0AD3D8074EC0C3C5F27F /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46D5D6B92BC552168E2F92C6F3E71AD6 /* UGClientResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D57958C02504FF81FF4843E3C16EDC75 /* UGClientResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488F7F2E17E3B13A839C4F1AAAF77D5D /* UGUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 87415517ADCDA31551240308CD148287 /* UGUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5245993ADC237EA987E2F92D5C05ABB8 /* UGConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2C561ADBD737B7F53A35DD522F8355 /* UGConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		53D3E08F02A2805E81F281F57C7DD409 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C0AA56C451C91AB495B3BFF238EB8 /* SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5CCF373524160D2DAC62CC2A35F80891 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8F68B656BC692A07B717DB6B7C8EE7 /* SBJsonStreamWriterAccumulator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		62E707EAA9F0F36B974169707EDF121B /* UGQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C7066D14A847A6DDB505E2B9C331C13E /* UGQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B3BDA25C5B8D09AE6E984F8EC2E84CF /* UGClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF471525136408681EAD5C8FD697DEBF /* UGClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E3B072B52D721E00004E53A7B44DBF /* UGClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B2181BA01DBB491C7C23D46D7F714C /* UGClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73DE7617004FC9781BFE3BE5434DBAE7 /* UGHTTPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 175E4AB4A3C100C16FFFB47A18B673A9 /* UGHTTPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A022E287A81B92938C42EF7D2E04AEE /* SBJsonStreamWriterAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBAD8973A19FDA34E78127D014F3F7E /* SBJsonStreamWriterAccumulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E16F4F95D0E74A8DC38181CB90EB018 /* SBJsonStreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = A0425880CFE7EC4DF2654EC8C01228F3 /* SBJsonStreamWriterState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9148EF540D07E0EFD0BF9ADD25B184D7 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = FC683404E1E0665953EEEAC586E3E0DD /* SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9EC641011A16FD298F7781BE66D5C5B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A01C6B0D88163BA20A93EF19B4174214 /* Pods-parties-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B401F42BFC5FBB43D97157180139E18 /* Pods-parties-dummy.m */; };
+		A6270C172E826F60AB015F1B9A4B4EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A8BFED2C1FCFBBA1781FE38DE4C0AAC0 /* SBJsonStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1242B96241CF2E3C127181E8C06AEE5B /* SBJsonStreamWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F7CB5A7E3277662FB58F642BB59417 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D462747881521528673859411653BEBC /* SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6844A97C1F9EF5A272663AA6D894C29 /* UGActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623FA2AD5E9FC30D17F32DD2CB9212C /* UGActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B68807C7201F44FD23F3DF3C2CA17225 /* UGHTTPHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B27197CF4E0E3589A6F961B91AF28 /* UGHTTPHelpers.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C308AC5B82619DF14453CDBEB2BFCB63 /* UGHTTPResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D4769E4D2131055495408699EEF57F84 /* UGHTTPResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5071E6A781CB3D78F8EFD78C89DA920 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F9BB300E127AF7ACB837D384833859 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C7D5CA48FE740A655EAC09B57AE97774 /* SBJsonStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B874D16EEFD3E16B3557936CFB20BECA /* SBJsonStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA5684F13B81CB6C165A01D88BDD2AEE /* UGMultiStepAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 085D56D703AD93B0FBB568B7B2493BB4 /* UGMultiStepAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CACCD581C1DA504A14E80764C6F60893 /* SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FE382626340687F16A02521105EC60 /* SBJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D266C7F807F100C803CB7E3695D1ABDA /* UGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D5141C7A2C3B63D846E8A300D5F05 /* UGHTTPClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D5E5A2312D27DE44E08481842343677D /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFA66CBAAFC19A5AB9D4F3B5895F02 /* SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6F44473A0189C2E9E47A1229EA6AEC0 /* UGQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1871F1D930DC0EBE6A981A7D509012 /* UGQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8F4BAFC589337B3DDEFE146EC14601F /* SBJsonStreamParserAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 803C30AFC93668FBB5E1D00F6FF3031A /* SBJsonStreamParserAccumulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95FD8C6F987647562B3E5B2E458195A /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A13A436939074328AD43E98E4D3BBF /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFBE397C131E3DC5743940104C4D7DD /* UGHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 247091055B007150DF5887AB2488428B /* UGHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDAA91B39BD7A3E62FE06FB50B1229D7 /* SBJsonStreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EBF65A1EB835A6C27A8A84C799A94E /* SBJsonStreamParserState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E70CA50D682C82D7B5AEE779595D5406 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 070E7C3565DA3D2757BA7C6913188F84 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E88984894895C5E1CC511D559E0FE073 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 880DF21B55726E0A19675A5F695AF4ED /* SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB476E5455CC03A65C5CCA3F3C8A9B79 /* UGActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = C0546C8199E659D83A52101DE423905F /* UGActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F024C3D84DD59BFC4A021DDA925BCE64 /* UGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 787FFE04407D0A189770161E4B2CA776 /* UGUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F2E51608BEF458345E362BAEB459DE0D /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B16B8FA2EE5B87AE341E6C0AC7709D0E /* SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7E0E795222F361F44DAEE85FFA1310B /* UGHTTPHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A245578B7BCDEAE5F40A70C2CA51CF /* UGHTTPHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB89A57B41DD830782FBFB77FB221128 /* SBJsonTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E657867764BC8D446E683A855FFC01 /* SBJsonTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A15B298F5645108F64406D91EA83726F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE29F6130BF15979D04220131B67146;
+			remoteInfo = "UsergridSDK-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062F9314EEDAB58F4F0CCDF5B1E8A6C1 /* UGClientResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGClientResponse.m; sourceTree = "<group>"; };
+		070E7C3565DA3D2757BA7C6913188F84 /* SBJsonParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		07A13A436939074328AD43E98E4D3BBF /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		07F9BB300E127AF7ACB837D384833859 /* SBJsonWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		085D56D703AD93B0FBB568B7B2493BB4 /* UGMultiStepAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGMultiStepAction.h; sourceTree = "<group>"; };
+		08C604B637952C7C01C4962D1A86E72B /* Pods-parties-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-parties-resources.sh"; sourceTree = "<group>"; };
+		0ABDC38D89988936C906CAD3E57BA0EB /* UGHTTPManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGHTTPManager.m; sourceTree = "<group>"; };
+		0CF50B28D4EB151F4349E61F4D33DE4A /* libUsergridSDK-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUsergridSDK-ObjC.a"; path = "libUsergridSDK-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6E1656D5CCCBDC77043A17E363A251 /* Pods-parties-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-parties-frameworks.sh"; sourceTree = "<group>"; };
+		1242B96241CF2E3C127181E8C06AEE5B /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		175E4AB4A3C100C16FFFB47A18B673A9 /* UGHTTPManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGHTTPManager.h; sourceTree = "<group>"; };
+		17CFA66CBAAFC19A5AB9D4F3B5895F02 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		18E657867764BC8D446E683A855FFC01 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		19FCC509117CCB4566143708083A9C7E /* UGMultiStepAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGMultiStepAction.m; sourceTree = "<group>"; };
+		1BCF1179FB87250CE704D9E818FE1E85 /* NSObject+SBJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		247091055B007150DF5887AB2488428B /* UGHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGHTTPClient.h; sourceTree = "<group>"; };
+		24A74D4C9F3CC80FAF87FB80D2D9866D /* UsergridSDK-ObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UsergridSDK-ObjC.xcconfig"; sourceTree = "<group>"; };
+		2623FA2AD5E9FC30D17F32DD2CB9212C /* UGActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGActivity.m; sourceTree = "<group>"; };
+		303C701D21CC0AD3D8074EC0C3C5F27F /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		35FA41355BD11352A4E1C5B73D46D401 /* UsergridSDK-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UsergridSDK-ObjC-dummy.m"; sourceTree = "<group>"; };
+		4295DDB8176BDCC3B64A1C7CBA4E3250 /* UGHTTPResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGHTTPResult.m; sourceTree = "<group>"; };
+		47238426DC12F2A2EAC75B4817ADD7E3 /* Pods-parties.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-parties.debug.xcconfig"; sourceTree = "<group>"; };
+		4AF94FC6254B2D2C32EE4C6B810A2B16 /* Pods-parties-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-parties-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DBAD8973A19FDA34E78127D014F3F7E /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		52E781D99055EA811C4C8CE9DD762EFC /* SBJsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		56F4AE4C8225FC4E9FDCDBFD87A2B40D /* Pods-parties.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-parties.release.xcconfig"; sourceTree = "<group>"; };
+		5B457AF4F7C64C71A4657A5D7A93928A /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		6455C66D50EA1A5B431BE4105CF7CDD7 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		71EBF65A1EB835A6C27A8A84C799A94E /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		74B2181BA01DBB491C7C23D46D7F714C /* UGClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGClient.m; sourceTree = "<group>"; };
+		787FFE04407D0A189770161E4B2CA776 /* UGUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGUser.m; sourceTree = "<group>"; };
+		7B401F42BFC5FBB43D97157180139E18 /* Pods-parties-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-parties-dummy.m"; sourceTree = "<group>"; };
+		803C30AFC93668FBB5E1D00F6FF3031A /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		815B27197CF4E0E3589A6F961B91AF28 /* UGHTTPHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGHTTPHelpers.m; sourceTree = "<group>"; };
+		833722B1B60AC9B6E08C9826CEB4DA02 /* UGClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGClient.h; sourceTree = "<group>"; };
+		83B811533E2D00C5DA0DC55F142919A5 /* UGConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGConnection.h; sourceTree = "<group>"; };
+		8438960A8381030EB2F54BC01F5B7896 /* libPods-parties.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-parties.a"; path = "libPods-parties.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87415517ADCDA31551240308CD148287 /* UGUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGUser.h; sourceTree = "<group>"; };
+		880DF21B55726E0A19675A5F695AF4ED /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A245578B7BCDEAE5F40A70C2CA51CF /* UGHTTPHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGHTTPHelpers.h; sourceTree = "<group>"; };
+		9B88D130D3670FAA40ADF5FFD986C0F1 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		A0425880CFE7EC4DF2654EC8C01228F3 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		A70D386BF393A464175949A0E0EDB67A /* SBJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		AB7C0AA56C451C91AB495B3BFF238EB8 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		B16B8FA2EE5B87AE341E6C0AC7709D0E /* SBJsonStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		B800FBCBD4C638AEBA7A3CB5B8EBB52D /* Pods-parties-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-parties-acknowledgements.plist"; sourceTree = "<group>"; };
+		B874D16EEFD3E16B3557936CFB20BECA /* SBJsonStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		C0546C8199E659D83A52101DE423905F /* UGActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGActivity.h; sourceTree = "<group>"; };
+		C7066D14A847A6DDB505E2B9C331C13E /* UGQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGQuery.m; sourceTree = "<group>"; };
+		CB1871F1D930DC0EBE6A981A7D509012 /* UGQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGQuery.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC8F68B656BC692A07B717DB6B7C8EE7 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		CE7FEED19FA411B9252B56B1C04C490D /* NSObject+SBJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		D462747881521528673859411653BEBC /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		D4769E4D2131055495408699EEF57F84 /* UGHTTPResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGHTTPResult.h; sourceTree = "<group>"; };
+		D57958C02504FF81FF4843E3C16EDC75 /* UGClientResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGClientResponse.h; sourceTree = "<group>"; };
+		DC2C561ADBD737B7F53A35DD522F8355 /* UGConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGConnection.m; sourceTree = "<group>"; };
+		E09D5141C7A2C3B63D846E8A300D5F05 /* UGHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UGHTTPClient.m; sourceTree = "<group>"; };
+		E4FE382626340687F16A02521105EC60 /* SBJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		ECBA5D4D4142F2173511241FB970C4B5 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		F4DEBBAFEAAC8CEE1D5C7A67C3B7FA5D /* UsergridSDK-ObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsergridSDK-ObjC-prefix.pch"; sourceTree = "<group>"; };
+		FC683404E1E0665953EEEAC586E3E0DD /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		FF471525136408681EAD5C8FD697DEBF /* UGClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UGClientDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8927F480B4742CF37E801D7FDF2B62CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6270C172E826F60AB015F1B9A4B4EA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF2B11C839DD97F200AFEE42FE570B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC641011A16FD298F7781BE66D5C5B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14843EE62B1A49B0F61887C5A32AD289 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6CABBEA82F56F2477BA08FBCFF10A5 /* Pods-parties */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2D6CABBEA82F56F2477BA08FBCFF10A5 /* Pods-parties */ = {
+			isa = PBXGroup;
+			children = (
+				4AF94FC6254B2D2C32EE4C6B810A2B16 /* Pods-parties-acknowledgements.markdown */,
+				B800FBCBD4C638AEBA7A3CB5B8EBB52D /* Pods-parties-acknowledgements.plist */,
+				7B401F42BFC5FBB43D97157180139E18 /* Pods-parties-dummy.m */,
+				0D6E1656D5CCCBDC77043A17E363A251 /* Pods-parties-frameworks.sh */,
+				08C604B637952C7C01C4962D1A86E72B /* Pods-parties-resources.sh */,
+				47238426DC12F2A2EAC75B4817ADD7E3 /* Pods-parties.debug.xcconfig */,
+				56F4AE4C8225FC4E9FDCDBFD87A2B40D /* Pods-parties.release.xcconfig */,
+			);
+			name = "Pods-parties";
+			path = "Target Support Files/Pods-parties";
+			sourceTree = "<group>";
+		};
+		311050B612B82A23BD8DC9B6A9E880C8 /* UGAPI */ = {
+			isa = PBXGroup;
+			children = (
+				07A13A436939074328AD43E98E4D3BBF /* SSKeychain.h */,
+				303C701D21CC0AD3D8074EC0C3C5F27F /* SSKeychain.m */,
+				C0546C8199E659D83A52101DE423905F /* UGActivity.h */,
+				2623FA2AD5E9FC30D17F32DD2CB9212C /* UGActivity.m */,
+				833722B1B60AC9B6E08C9826CEB4DA02 /* UGClient.h */,
+				74B2181BA01DBB491C7C23D46D7F714C /* UGClient.m */,
+				FF471525136408681EAD5C8FD697DEBF /* UGClientDelegate.h */,
+				D57958C02504FF81FF4843E3C16EDC75 /* UGClientResponse.h */,
+				062F9314EEDAB58F4F0CCDF5B1E8A6C1 /* UGClientResponse.m */,
+				175E4AB4A3C100C16FFFB47A18B673A9 /* UGHTTPManager.h */,
+				0ABDC38D89988936C906CAD3E57BA0EB /* UGHTTPManager.m */,
+				085D56D703AD93B0FBB568B7B2493BB4 /* UGMultiStepAction.h */,
+				19FCC509117CCB4566143708083A9C7E /* UGMultiStepAction.m */,
+				CB1871F1D930DC0EBE6A981A7D509012 /* UGQuery.h */,
+				C7066D14A847A6DDB505E2B9C331C13E /* UGQuery.m */,
+				87415517ADCDA31551240308CD148287 /* UGUser.h */,
+				787FFE04407D0A189770161E4B2CA776 /* UGUser.m */,
+				50F3FBD13808E1AF927D0A79767067EA /* SBJson */,
+				8E9ABCECD3060C87687DE9FA2EBCF6FD /* v2 */,
+			);
+			name = UGAPI;
+			path = UGAPI;
+			sourceTree = "<group>";
+		};
+		393103C8AB581E481318BB3FC7C15A9D /* UsergridSDK-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				ED579FFA601ED463AD8DD4E4764A1F66 /* Support Files */,
+				311050B612B82A23BD8DC9B6A9E880C8 /* UGAPI */,
+			);
+			name = "UsergridSDK-ObjC";
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		50F3FBD13808E1AF927D0A79767067EA /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				CE7FEED19FA411B9252B56B1C04C490D /* NSObject+SBJson.h */,
+				1BCF1179FB87250CE704D9E818FE1E85 /* NSObject+SBJson.m */,
+				E4FE382626340687F16A02521105EC60 /* SBJson.h */,
+				A70D386BF393A464175949A0E0EDB67A /* SBJsonParser.h */,
+				070E7C3565DA3D2757BA7C6913188F84 /* SBJsonParser.m */,
+				B874D16EEFD3E16B3557936CFB20BECA /* SBJsonStreamParser.h */,
+				B16B8FA2EE5B87AE341E6C0AC7709D0E /* SBJsonStreamParser.m */,
+				803C30AFC93668FBB5E1D00F6FF3031A /* SBJsonStreamParserAccumulator.h */,
+				ECBA5D4D4142F2173511241FB970C4B5 /* SBJsonStreamParserAccumulator.m */,
+				6455C66D50EA1A5B431BE4105CF7CDD7 /* SBJsonStreamParserAdapter.h */,
+				D462747881521528673859411653BEBC /* SBJsonStreamParserAdapter.m */,
+				71EBF65A1EB835A6C27A8A84C799A94E /* SBJsonStreamParserState.h */,
+				17CFA66CBAAFC19A5AB9D4F3B5895F02 /* SBJsonStreamParserState.m */,
+				1242B96241CF2E3C127181E8C06AEE5B /* SBJsonStreamWriter.h */,
+				9B88D130D3670FAA40ADF5FFD986C0F1 /* SBJsonStreamWriter.m */,
+				4DBAD8973A19FDA34E78127D014F3F7E /* SBJsonStreamWriterAccumulator.h */,
+				CC8F68B656BC692A07B717DB6B7C8EE7 /* SBJsonStreamWriterAccumulator.m */,
+				A0425880CFE7EC4DF2654EC8C01228F3 /* SBJsonStreamWriterState.h */,
+				FC683404E1E0665953EEEAC586E3E0DD /* SBJsonStreamWriterState.m */,
+				18E657867764BC8D446E683A855FFC01 /* SBJsonTokeniser.h */,
+				AB7C0AA56C451C91AB495B3BFF238EB8 /* SBJsonTokeniser.m */,
+				5B457AF4F7C64C71A4657A5D7A93928A /* SBJsonUTF8Stream.h */,
+				880DF21B55726E0A19675A5F695AF4ED /* SBJsonUTF8Stream.m */,
+				52E781D99055EA811C4C8CE9DD762EFC /* SBJsonWriter.h */,
+				07F9BB300E127AF7ACB837D384833859 /* SBJsonWriter.m */,
+			);
+			name = SBJson;
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				85DFF451AD0B2898465747365C030DB2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DF0FF341273EA644162660B26E41DA97 /* Products */,
+				14843EE62B1A49B0F61887C5A32AD289 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85DFF451AD0B2898465747365C030DB2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393103C8AB581E481318BB3FC7C15A9D /* UsergridSDK-ObjC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8E9ABCECD3060C87687DE9FA2EBCF6FD /* v2 */ = {
+			isa = PBXGroup;
+			children = (
+				83B811533E2D00C5DA0DC55F142919A5 /* UGConnection.h */,
+				DC2C561ADBD737B7F53A35DD522F8355 /* UGConnection.m */,
+				247091055B007150DF5887AB2488428B /* UGHTTPClient.h */,
+				E09D5141C7A2C3B63D846E8A300D5F05 /* UGHTTPClient.m */,
+				94A245578B7BCDEAE5F40A70C2CA51CF /* UGHTTPHelpers.h */,
+				815B27197CF4E0E3589A6F961B91AF28 /* UGHTTPHelpers.m */,
+				D4769E4D2131055495408699EEF57F84 /* UGHTTPResult.h */,
+				4295DDB8176BDCC3B64A1C7CBA4E3250 /* UGHTTPResult.m */,
+			);
+			name = v2;
+			path = v2;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF0FF341273EA644162660B26E41DA97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8438960A8381030EB2F54BC01F5B7896 /* libPods-parties.a */,
+				0CF50B28D4EB151F4349E61F4D33DE4A /* libUsergridSDK-ObjC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED579FFA601ED463AD8DD4E4764A1F66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24A74D4C9F3CC80FAF87FB80D2D9866D /* UsergridSDK-ObjC.xcconfig */,
+				35FA41355BD11352A4E1C5B73D46D401 /* UsergridSDK-ObjC-dummy.m */,
+				F4DEBBAFEAAC8CEE1D5C7A67C3B7FA5D /* UsergridSDK-ObjC-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "samples/parties/Pods/Target Support Files/UsergridSDK-ObjC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA8A4193F9C618DFEB8ECD3C0682ADF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0944DAFF4831E951B3DF5FA69E5A18EA /* NSObject+SBJson.h in Headers */,
+				CACCD581C1DA504A14E80764C6F60893 /* SBJson.h in Headers */,
+				2D65A4B81C3ACBC8DBB7B90D4F9BD391 /* SBJsonParser.h in Headers */,
+				C7D5CA48FE740A655EAC09B57AE97774 /* SBJsonStreamParser.h in Headers */,
+				D8F4BAFC589337B3DDEFE146EC14601F /* SBJsonStreamParserAccumulator.h in Headers */,
+				14468D773DDFC16A94DD002620D80F26 /* SBJsonStreamParserAdapter.h in Headers */,
+				DDAA91B39BD7A3E62FE06FB50B1229D7 /* SBJsonStreamParserState.h in Headers */,
+				A8BFED2C1FCFBBA1781FE38DE4C0AAC0 /* SBJsonStreamWriter.h in Headers */,
+				7A022E287A81B92938C42EF7D2E04AEE /* SBJsonStreamWriterAccumulator.h in Headers */,
+				8E16F4F95D0E74A8DC38181CB90EB018 /* SBJsonStreamWriterState.h in Headers */,
+				FB89A57B41DD830782FBFB77FB221128 /* SBJsonTokeniser.h in Headers */,
+				23D5933DE018BD7DBBA2EFC32236FC10 /* SBJsonUTF8Stream.h in Headers */,
+				43ABC1FB946A2B8345E85073444D3923 /* SBJsonWriter.h in Headers */,
+				D95FD8C6F987647562B3E5B2E458195A /* SSKeychain.h in Headers */,
+				EB476E5455CC03A65C5CCA3F3C8A9B79 /* UGActivity.h in Headers */,
+				076F01398D1B5908792EB937D8BAEDBD /* UGClient.h in Headers */,
+				6B3BDA25C5B8D09AE6E984F8EC2E84CF /* UGClientDelegate.h in Headers */,
+				46D5D6B92BC552168E2F92C6F3E71AD6 /* UGClientResponse.h in Headers */,
+				2198C6C5BD806CB03698989C4419EA88 /* UGConnection.h in Headers */,
+				DBFBE397C131E3DC5743940104C4D7DD /* UGHTTPClient.h in Headers */,
+				F7E0E795222F361F44DAEE85FFA1310B /* UGHTTPHelpers.h in Headers */,
+				73DE7617004FC9781BFE3BE5434DBAE7 /* UGHTTPManager.h in Headers */,
+				C308AC5B82619DF14453CDBEB2BFCB63 /* UGHTTPResult.h in Headers */,
+				CA5684F13B81CB6C165A01D88BDD2AEE /* UGMultiStepAction.h in Headers */,
+				D6F44473A0189C2E9E47A1229EA6AEC0 /* UGQuery.h in Headers */,
+				488F7F2E17E3B13A839C4F1AAAF77D5D /* UGUser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ACE29F6130BF15979D04220131B67146 /* UsergridSDK-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D206B692451CAFAA734EB0A7D30695E /* Build configuration list for PBXNativeTarget "UsergridSDK-ObjC" */;
+			buildPhases = (
+				9401661C79433DBC0B099C4A124DCDAF /* Sources */,
+				BDF2B11C839DD97F200AFEE42FE570B4 /* Frameworks */,
+				CA8A4193F9C618DFEB8ECD3C0682ADF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UsergridSDK-ObjC";
+			productName = "UsergridSDK-ObjC";
+			productReference = 0CF50B28D4EB151F4349E61F4D33DE4A /* libUsergridSDK-ObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B50FFB5071DF7FB74E149452CB8A19BC /* Pods-parties */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0FF00F006E75E51AB805DBFA55B33E /* Build configuration list for PBXNativeTarget "Pods-parties" */;
+			buildPhases = (
+				EE8DD683FDAD4643082B94102F432C62 /* Sources */,
+				8927F480B4742CF37E801D7FDF2B62CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4449C331D540DD465FAF41459139B6E /* PBXTargetDependency */,
+			);
+			name = "Pods-parties";
+			productName = "Pods-parties";
+			productReference = 8438960A8381030EB2F54BC01F5B7896 /* libPods-parties.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DF0FF341273EA644162660B26E41DA97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50FFB5071DF7FB74E149452CB8A19BC /* Pods-parties */,
+				ACE29F6130BF15979D04220131B67146 /* UsergridSDK-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9401661C79433DBC0B099C4A124DCDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F7C4344CF08C77D5B9704A75E38648 /* NSObject+SBJson.m in Sources */,
+				E70CA50D682C82D7B5AEE779595D5406 /* SBJsonParser.m in Sources */,
+				F2E51608BEF458345E362BAEB459DE0D /* SBJsonStreamParser.m in Sources */,
+				34E3BD0D8EF748AA9BA94A5D186499F7 /* SBJsonStreamParserAccumulator.m in Sources */,
+				B3F7CB5A7E3277662FB58F642BB59417 /* SBJsonStreamParserAdapter.m in Sources */,
+				D5E5A2312D27DE44E08481842343677D /* SBJsonStreamParserState.m in Sources */,
+				4028BAB8DE2D5F7F5F52AF91D4CAEFC3 /* SBJsonStreamWriter.m in Sources */,
+				5CCF373524160D2DAC62CC2A35F80891 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				9148EF540D07E0EFD0BF9ADD25B184D7 /* SBJsonStreamWriterState.m in Sources */,
+				53D3E08F02A2805E81F281F57C7DD409 /* SBJsonTokeniser.m in Sources */,
+				E88984894895C5E1CC511D559E0FE073 /* SBJsonUTF8Stream.m in Sources */,
+				C5071E6A781CB3D78F8EFD78C89DA920 /* SBJsonWriter.m in Sources */,
+				451AD9E942FA784341A1D5CE2B57DC09 /* SSKeychain.m in Sources */,
+				B6844A97C1F9EF5A272663AA6D894C29 /* UGActivity.m in Sources */,
+				71E3B072B52D721E00004E53A7B44DBF /* UGClient.m in Sources */,
+				0A8F3C099BDAB3BE3DF3DF38D58ABF14 /* UGClientResponse.m in Sources */,
+				5245993ADC237EA987E2F92D5C05ABB8 /* UGConnection.m in Sources */,
+				D266C7F807F100C803CB7E3695D1ABDA /* UGHTTPClient.m in Sources */,
+				B68807C7201F44FD23F3DF3C2CA17225 /* UGHTTPHelpers.m in Sources */,
+				3C0EBB8BDB3A8D0AB72AAC279D9EAF4A /* UGHTTPManager.m in Sources */,
+				06BF551BC34D64D8D561CE6C902DFF36 /* UGHTTPResult.m in Sources */,
+				20C07FE1B592FA4F64DD718566EE66B8 /* UGMultiStepAction.m in Sources */,
+				62E707EAA9F0F36B974169707EDF121B /* UGQuery.m in Sources */,
+				F024C3D84DD59BFC4A021DDA925BCE64 /* UGUser.m in Sources */,
+				025C56F706F2ABAACBB6CD4F5691C764 /* UsergridSDK-ObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8DD683FDAD4643082B94102F432C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01C6B0D88163BA20A93EF19B4174214 /* Pods-parties-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4449C331D540DD465FAF41459139B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UsergridSDK-ObjC";
+			target = ACE29F6130BF15979D04220131B67146 /* UsergridSDK-ObjC */;
+			targetProxy = A15B298F5645108F64406D91EA83726F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4152B65E774EC5E092DB6B4C2F95806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA6926BFCA8549475CC696285D69637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		789FDC25E87CB99217DA75A11F424AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A74D4C9F3CC80FAF87FB80D2D9866D /* UsergridSDK-ObjC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UsergridSDK-ObjC/UsergridSDK-ObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		98AD209A9FE2B264F62621AE90923974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A74D4C9F3CC80FAF87FB80D2D9866D /* UsergridSDK-ObjC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UsergridSDK-ObjC/UsergridSDK-ObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A011B1B68E0B1CFC824FC770942E182D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F4AE4C8225FC4E9FDCDBFD87A2B40D /* Pods-parties.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F24129F2B44BE09E90E154B59A54C550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47238426DC12F2A2EAC75B4817ADD7E3 /* Pods-parties.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B0FF00F006E75E51AB805DBFA55B33E /* Build configuration list for PBXNativeTarget "Pods-parties" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24129F2B44BE09E90E154B59A54C550 /* Debug */,
+				A011B1B68E0B1CFC824FC770942E182D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA6926BFCA8549475CC696285D69637 /* Debug */,
+				4152B65E774EC5E092DB6B4C2F95806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D206B692451CAFAA734EB0A7D30695E /* Build configuration list for PBXNativeTarget "UsergridSDK-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789FDC25E87CB99217DA75A11F424AC5 /* Debug */,
+				98AD209A9FE2B264F62621AE90923974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
