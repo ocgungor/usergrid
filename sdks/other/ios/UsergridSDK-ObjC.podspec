@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files  = "Classes", "UGAPI/**/*.{h,m}"
+  s.source_files  = "Classes", "sdks/other/ios/UGAPI/**/*.{h,m}"
   s.requires_arc = true
 
 end
